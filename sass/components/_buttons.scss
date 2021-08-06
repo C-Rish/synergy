@@ -1,0 +1,51 @@
+
+.btn {
+  background: $color-primary;
+  font-size: 1.4rem;
+  color: $color-white;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: solid 2px $color-primary;
+  transition: all .7s;
+  align-self: center;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: .5rem;
+  
+  @media screen and (min-width:1200px) {
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem;
+    
+  }
+
+  
+}
+
+.btn:hover {
+  border: solid 2px $color-primary;
+  color: $color-primary;
+  background: transparent;
+  text-decoration: none
+}
+
+.btn-blue {
+  @extend .btn;
+}
+
+.btn-blue:hover {
+  background-color: $color-white;
+  border: solid 2px $color-primary;
+}
+
+.btn-white {
+  @extend .btn; 
+  background-color: $color-white;
+  color: $color-primary;
+}
+
+.btn-white:hover {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+
