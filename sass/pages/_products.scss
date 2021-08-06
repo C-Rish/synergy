@@ -1,0 +1,42 @@
+.mfin {
+    color: $color-primary;
+}
+
+.mfin-info {
+    background-image: url(../img/about-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: $color-white;
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 5rem auto;
+    &__header {
+        font-size: 3rem;
+        position: relative;
+        z-index: 200;
+        text-align: left;
+
+        @media screen and (min-width:1250px) {
+            text-align: center;
+        }
+    }
+    
+    &__desc {
+        max-width: 125rem;
+        margin: 4rem auto 0 auto;
+        position: relative;
+        z-index: 200;
+    }
+
+    .overlay {
+        background-color: rgba($color: $color-primary, $alpha: 0.5);
+        position: absolute;
+        top: 0;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+}

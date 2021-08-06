@@ -7,6 +7,7 @@
     position: fixed;
     width: 100%;
     background: $color-white;
+    box-shadow: 1px 1px 1rem $color-dark-grey;
    
     &-logo {
         min-width: 13rem;
